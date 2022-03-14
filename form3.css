@@ -1,0 +1,80 @@
+body{
+    font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 10%;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.forms{
+    width: 50%;
+    margin: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(221, 222, 223);
+}
+.display{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+}
+input[type=email], select {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  input[type=password], select {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.btn{
+    width: 54%;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+    background: rgb(145,34,195);
+background: linear-gradient(180deg, rgba(145,34,195,1) 0%, rgba(253,45,168,1) 93%, rgba(253,45,168,1) 100%);
+}
+.forms a{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+    text-decoration: none;
+}
+
+.paragraph{
+    width: 50%;
+    text-align: justify;
+    margin-left: -25px;
+    padding: 30px;
+    border-radius: 30px;
+    background: rgb(145,34,195);
+background: linear-gradient(180deg, rgba(145,34,195,1) 0%, rgba(253,45,168,1) 93%, rgba(253,45,168,1) 100%);
+}
+.paragraph button{
+    background-color: transparent;border: 1px solid black; border-radius: 30px;
+}
+.paragraph button:hover{
+    background-color: transparent;border: 1px solid black; border-radius: 30px;
+    opacity: .4;
+}
+.paragraph a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}

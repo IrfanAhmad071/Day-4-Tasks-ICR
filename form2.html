@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://kit.fontawesome.com/7e60053491.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: calibri;
+            background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .forms{
+            width: 30%;
+            margin: auto;
+            margin-top: 30px;
+            text-align: center;
+            color: #82dbcf;
+            font-size: large;
+            border-top-left-radius: 49px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 49px;
+            border-bottom-left-radius: 0px;
+        }
+        .forms a{
+            text-decoration: none;
+            color: #82dbcf;
+        }
+        .forms a:hover{
+            text-decoration: none;
+            color: #4f40d8;
+        }
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          text-align: center;
+          border: none;
+          border-bottom: 1px solid #ccc;
+          background-color: transparent;
+          box-sizing: border-box;
+        }
+        input[type=email], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          text-align: center;
+          border: none;
+          border-bottom: 1px solid #ccc;
+          background-color: transparent;
+          box-sizing: border-box;
+        }
+        input[type=password], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          text-align: center;
+          border: none;
+          border-bottom: 1px solid #ccc;
+          background-color: transparent;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 50%;
+          background-color: #d5d8df;
+          color: white;
+          padding: 18px 10px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 30px;
+          cursor: pointer;
+          color: #3f70db;
+          font-weight: bold;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #c4cbda;
+        }
+        
+        div {
+          border-radius: 5px;
+          background-color: #0e5249;
+          padding: 20px;
+        }
+        .btn{
+            text-align: center;
+            
+        }
+        </style>
+</head>
+<body>
+    <section>
+        <div class="forms">
+                <form action="" method="post">
+                  <i class="fa-solid fa-fingerprint"></i>
+                  <input type="text" id="name" name="name" placeholder="Your name">
+                  
+                  <input type="email" id="email" name="email" placeholder="Email Address">
+
+                  <input type="password" id="pwd" name="pwd" placeholder="Password">
+                  <div class="btn"><input type="submit" value="Sign UP"></div>
+                  <p>
+                      By creating an account, you agree and accept our <a href="#">Terms</a> and <a href="#">Privacy Policy</a>
+                  </p>
+                  <hr>
+                  <p>
+                      Already have an account? <a style="text-decoration: underline;" href="#">Log in.</a>
+                  </p>
+                </form>
+        </div>
+    </section>
+    
+</body>
+</html>
